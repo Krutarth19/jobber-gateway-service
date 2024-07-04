@@ -10,9 +10,8 @@ import hpp from 'hpp';
 import compression from 'compression';
 import { StatusCodes } from 'http-status-codes';
 import { elasticSearch } from '@gateway/elasticSearch';
-
-import { config } from './config';
-import { appRoutes } from './routes';
+import { config } from '@gateway/config';
+import { appRoutes } from '@gateway/routes';
 
 const SERVER_PORT = 4000;
 
